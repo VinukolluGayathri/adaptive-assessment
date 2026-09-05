@@ -1,0 +1,181 @@
+[
+  {
+    "id": "python.fundamentals.variables",
+    "name": "Variables and Data Types",
+    "category": "Fundamentals",
+    "prerequisites": [],
+    "difficulty_tier": 1
+  },
+  {
+    "id": "python.fundamentals.operators",
+    "name": "Operators and Expressions",
+    "category": "Fundamentals",
+    "prerequisites": [
+      "python.fundamentals.variables"
+    ],
+    "difficulty_tier": 1
+  },
+  {
+    "id": "python.fundamentals.conditionals",
+    "name": "Conditional Statements",
+    "category": "Fundamentals",
+    "prerequisites": [
+      "python.fundamentals.operators"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.fundamentals.loops",
+    "name": "Loops",
+    "category": "Fundamentals",
+    "prerequisites": [
+      "python.fundamentals.conditionals"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.datastructures.lists",
+    "name": "Lists",
+    "category": "Data Structures",
+    "prerequisites": [
+      "python.fundamentals.loops"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.datastructures.tuples",
+    "name": "Tuples",
+    "category": "Data Structures",
+    "prerequisites": [
+      "python.datastructures.lists"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.datastructures.dictionaries",
+    "name": "Dictionaries",
+    "category": "Data Structures",
+    "prerequisites": [
+      "python.fundamentals.conditionals"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.datastructures.sets",
+    "name": "Sets",
+    "category": "Data Structures",
+    "prerequisites": [
+      "python.datastructures.lists"
+    ],
+    "difficulty_tier": 2
+  },
+  {
+    "id": "python.functions.basics",
+    "name": "Function Definition and Calling",
+    "category": "Functions",
+    "prerequisites": [
+      "python.fundamentals.conditionals"
+    ],
+    "difficulty_tier": 3
+  },
+  {
+    "id": "python.functions.arguments",
+    "name": "Function Arguments",
+    "category": "Functions",
+    "prerequisites": [
+      "python.functions.basics"
+    ],
+    "difficulty_tier": 3
+  },
+  {
+    "id": "python.functions.scope",
+    "name": "Scope",
+    "category": "Functions",
+    "prerequisites": [
+      "python.functions.arguments"
+    ],
+    "difficulty_tier": 4
+  },
+  {
+    "id": "python.functions.recursion",
+    "name": "Recursion",
+    "category": "Functions",
+    "prerequisites": [
+      "python.functions.basics"
+    ],
+    "difficulty_tier": 4
+  },
+  {
+    "id": "python.oop.classes",
+    "name": "Classes and Objects",
+    "category": "OOP",
+    "prerequisites": [
+      "python.functions.basics"
+    ],
+    "difficulty_tier": 4
+  },
+  {
+    "id": "python.oop.inheritance",
+    "name": "Inheritance",
+    "category": "OOP",
+    "prerequisites": [
+      "python.oop.classes"
+    ],
+    "difficulty_tier": 5
+  },
+  {
+    "id": "python.oop.polymorphism",
+    "name": "Polymorphism",
+    "category": "OOP",
+    "prerequisites": [
+      "python.oop.inheritance"
+    ],
+    "difficulty_tier": 6
+  },
+  {
+    "id": "python.errors.exceptions",
+    "name": "Exception Handling",
+    "category": "Error Handling",
+    "prerequisites": [
+      "python.fundamentals.conditionals"
+    ],
+    "difficulty_tier": 3
+  },
+  {
+    "id": "python.io.files",
+    "name": "File I/O",
+    "category": "File and I/O",
+    "prerequisites": [
+      "python.fundamentals.variables"
+    ],
+    "difficulty_tier": 3
+  },
+  {
+    "id": "python.advanced.iterators",
+    "name": "Iterators",
+    "category": "Advanced Python",
+    "prerequisites": [
+      "python.datastructures.lists"
+    ],
+    "difficulty_tier": 5
+  },
+  {
+    "id": "python.advanced.generators",
+    "name": "Generators",
+    "category": "Advanced Python",
+    "prerequisites": [
+      "python.advanced.iterators",
+      "python.functions.basics"
+    ],
+    "difficulty_tier": 6
+  },
+  {
+    "id": "python.advanced.context_managers",
+    "name": "Context Managers",
+    "category": "Advanced Python",
+    "prerequisites": [
+      "python.io.files"
+    ],
+    "difficulty_tier": 6
+  }
+]
